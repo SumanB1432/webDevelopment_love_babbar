@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lac-23</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height:100vh;
+            background-color: beige;
+            border: 5px solid black;
+        }
+        .box{
+           height: 50px;
+           width:300px;
+           background-color: blue;
+           margin: 10px;
+           border-radius: 5px;
+           position: relative;
+           animation-name: movement;
+           animation-duration: 10s;
+           animation-iteration-count: 2;
+           animation-delay: 1s;
+           /* animation: linear; */
+           animation-timing-function: linear;
+           animation-direction: alternate;
+           animation-fill-mode: both;
+        }
+        @keyframes movement {
+            from{
+                top:0;
+                left:0;
+                background-color: brown;
+            }
+            to{
+                top:0;
+                left:1200px;
+                background-color: aqua;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+
+    </div>
+</body>
+</html>
