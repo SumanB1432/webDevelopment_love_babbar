@@ -1,0 +1,26 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    /* transform: rotate(45deg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    transition: all;
+    transition-duration: 5s;
+    transition-delay: 2px;
+    transition-timing-function: linear;
+
+}
+.box:hover{
+    transform: rotate(45deg);
+
+}
+.con{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items:center;
+}
